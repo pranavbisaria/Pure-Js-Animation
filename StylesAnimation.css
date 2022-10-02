@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    height: 0;
+    color: white;
+    background-color: black;
+}
+
+.header{
+    height: 8vh;
+    font-weight: 700;
+    position: sticky;
+}
+
+.center{
+    text-align: center;
+}
+
+main{
+    min-width: 88vh;
+}
+
+footer{
+    width: 4vh;
+    color: white;
+    background-color: black;
+}
