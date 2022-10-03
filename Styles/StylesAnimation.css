@@ -16,11 +16,12 @@
 }
 
 main{
-    min-width: 88vh;
+    margin-top: 8vh;
+    min-height: 86vh;
 }
 
 footer{
-    width: 4vh;
+    height: 4vh;
     color: white;
     background-color: black;
 }
