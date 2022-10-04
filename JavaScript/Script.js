@@ -1,12 +1,12 @@
-setTimeout(points, 1);
-setTimeout(background, 1);
+setTimeout(points, 100);
+setTimeout(background, 100);
 
 function points()
 {
-    let a=0;
-    let b=0;
+    var a=0;
+    var b=0;
 
-    for(var m=0;m<10;m++){
+    for(var n=0; n<10; n++){
         
         var st=document.getElementById("bgstars");
         let circle=document.createElementNS("http://www.w3.org/2000/svg", "circle");
