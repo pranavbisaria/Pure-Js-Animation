@@ -1,8 +1,10 @@
 *{
     padding: 0;
     height: 0;
+    box-sizing: border-box;
     color: white;
     background-color: black;
+    z-index: 1;
 }
 
 h1{
@@ -13,6 +15,7 @@ h1{
 
 .center{
     text-align: center;
+    
 }
 
 #container{
@@ -21,10 +24,16 @@ h1{
     width: 90%;
     height: 60%;
     border: 4px solid red;
+    background: linear-gradient(#111425, #3751e0);
+    overflow: hidden;
 }
 
 footer{
     height: 2vh;
-    color: white;
-    background-color: black;
+}
+
+#building{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
