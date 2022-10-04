@@ -2,9 +2,9 @@
     padding: 0;
     height: 0;
     box-sizing: border-box;
-    color: white;
-    background-color: black;
-    z-index: 1;
+    /* color: white;
+    background-color: black; */
+    z-index: 0;
 }
 
 h1{
@@ -32,8 +32,27 @@ footer{
     height: 2vh;
 }
 
+#moonbat{
+    height: 27%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.7;
+    left: 20%;
+    bottom: 45%;
+}
+
+#Batcar{
+    height: 14%;
+    z-index: 4;
+    position: absolute;
+    bottom: 48%;
+    left: 12%;
+}
+
 #building{
-    width: 100%;
-    height: 100%;
-    z-index: 3;
+    height: 75%;
+    z-index: 6;
+    position: relative;
+    opacity: 0.8;
+    top: 25%;
 }
