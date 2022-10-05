@@ -8,7 +8,7 @@
 #canvas1{
     position: absolute;
     width:1281px;
-    height: 568px;
+    height: 569px;
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
@@ -46,7 +46,6 @@ body{
     bottom: 30%;
     left: 62%;
     width: 77%;
-    
 }
 #cloud3{
     position: absolute;
@@ -54,7 +53,6 @@ body{
     bottom: 60%;
     left: 5%;
     width: 37%;
-
 }
 footer{
     height: 2vh;
@@ -89,4 +87,8 @@ footer{
     position: absolute;
     bottom: 48%;
     left: 12%;
+}
+#music{
+    display:none;
+    z-index: 20;
 }
