@@ -16,11 +16,15 @@
 }
 #buttons{
     position: absolute;
+    font-size: 28px;
     top:10px;
     z-index: 20;
 }
-.center{
-    text-align: center;
+#button{
+    color: black;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
 }
 body{
     margin: 0 5%;

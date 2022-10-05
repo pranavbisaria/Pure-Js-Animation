@@ -6,11 +6,20 @@ const slider = document.getElementById('slider');
 
 let gamespeed = 1;
 
+function fast(){
+    gamespeed++;
+}
+function slow(){
+    if(gamespeed==0){}
+    else gamespeed--;
+}
+
 const background = new Image();
 background.src = 'Resources/BgVector.png';
 
 let x=0;
 let x2=1028;
+
 function animate(){
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx.drawImage(background, x, 0);
