@@ -5,7 +5,6 @@
     z-index: 0;
     color: white;
 }
-
 #canvas1{
     position: absolute;
     width:1281px;
@@ -20,11 +19,9 @@
     top:10px;
     z-index: 20;
 }
-
 .center{
     text-align: center;
 }
-
 body{
     margin: 0 5%;
     height: 100vh;
@@ -32,7 +29,6 @@ body{
     width: 100vw;
     overflow: hidden;
 }
-
 #cloud1{
     position: absolute;
     z-index: 5;
@@ -40,7 +36,6 @@ body{
     left: 14%;
     width: 143vh;
 }
-
 #cloud2{
     position: absolute;
     z-index: 10;
@@ -49,7 +44,6 @@ body{
     width: 77%;
     
 }
-
 #cloud3{
     position: absolute;
     z-index: 10;
@@ -58,7 +52,6 @@ body{
     width: 37%;
 
 }
-
 footer{
     height: 2vh;
     position: absolute;
@@ -68,7 +61,6 @@ footer{
     left: 42%;
     font-weight: 700;
 }
-
 #bgstars{
     width: 100%;
     height: 100%; 
@@ -79,7 +71,6 @@ footer{
     overflow: hidden;
 
 }
-
 #moonbat{
     height: 41%;
     z-index: 3;
@@ -88,7 +79,6 @@ footer{
     left: 78%;
     bottom: 54%;
 }
-
 #Batcar{
     height: 25%;
     z-index: 8;
